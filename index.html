@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <!-- <link rel="stylesheet" href="https://testautomatedabiiltyai.s3.eu-north-1.amazonaws.com/main.css"> -->
+  </head>
+
+  <body style="background-color: #fa4242">
+    <div class="chat-box">
+      <header>
+        <h1>
+          <div class="header-avatar">
+            <img
+              src="https://testautomatedabiiltyai.s3.eu-north-1.amazonaws.com/ausnewhomecare_logo.png"
+              alt="AusNew Home Care Logo"
+              class="company-logo"
+              draggable="false"
+            />
+            <div class="availibility-dot"></div>
+          </div>
+
+          <div>Janice</div>
+          <div class="company-name">from AusNew Home Care</div>
+          <div class="more-menu-dropdown">
+            <!-- <button class="dropbtn">Dropdown</button> -->
+            <div class="more-menu-dropbtn">
+              <img
+                src="https://testautomatedabiiltyai.s3.eu-north-1.amazonaws.com/more-7657.png"
+                alt="More Actions Icon"
+                height="25"
+                width="25"
+                draggable="false"
+              />
+            </div>
+            <div class="more-menu-dropdown-content">
+              <a href="javascript:;" class="end-conversation">End conversation</a>
+              <a href="javascript:;" class="restart-conversation">Restart conversation</a>
+              <a href="javascript:;">Reserved feature</a>
+            </div>
+          </div>
+        </h1>
+      </header>
+      <section id="message-list"></section>
+      <footer>
+        <div class="typing-spinner">
+          <span>Janice is typing </span>
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+        <input id="message-input" type="text" placeholder="Type a message..." />
+        <div class="message-send-button">
+          <img
+            src="https://testautomatedabiiltyai.s3.eu-north-1.amazonaws.com/paper-plane-2563.png"
+            alt="Message Send Button"
+            draggable="false"
+          />
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@13.0.2/dist/markdown-it.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- <script src="https://testautomatedabiiltyai.s3.eu-north-1.amazonaws.com/main.js"></script> -->
+  </body>
+</html>
